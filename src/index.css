@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 300px; /* Fixed width for the card */
+    padding: 20px;
+    background: skyblue; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for card effect */
+    text-align: center;
+}
+
+.wicon {
+    margin-bottom: 20px;
+}
+
+.icon {
+    font-size: 60px;
+    color: orange;
+}
+
+.pin {
+    font-size: 30px;
+    color: white;
+}
+
+.wdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wdata h3,
+.wdata h4,
+.wdata h2 {
+    margin: 5px 0;
+}
+
+#wdata {
+    font-size: 16px;
+    color: #333;
+}
+
+#location {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#date {
+    font-size: 14px;
+    color: #888;
+}
+
+#temp {
+    font-size: 48px;
+    color: #ff5722;
+}
+
+#minmax {
+    font-size: 16px;
+    color: #555;
+}
